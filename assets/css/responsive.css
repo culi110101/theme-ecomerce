@@ -1,0 +1,110 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1560px;
+  }
+  .container .font-text {
+    font-size: 24px;
+  }
+  .container .font-icon {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1399px) {
+  .banner .banner-item {
+    width: 100%;
+  }
+  .banner .banner-item .card {
+    margin-top: 10px;
+  }
+  .font-text {
+    font-size: 20px;
+  }
+  .font-icon {
+    font-size: 24px;
+  }
+}
+/* responsive cho tablet & cho mobile*/
+/* responsive cho tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .font-text {
+    font-size: 14px;
+  }
+  .font-icon {
+    font-size: 22px;
+  }
+  .banner .banner-item {
+    width: 100%;
+  }
+  .banner .banner-item .card {
+    margin-top: 10px;
+  }
+}
+/* responsive cho mobile */
+@media (max-width: 739px) {
+  .header .brand-name {
+    position: relative;
+  }
+  .header .brand-name .menu-item {
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    display: inline;
+  }
+  .header .nav-bar {
+    display: none;
+    position: relative;
+  }
+  .header .nav-bar .nav {
+    z-index: 1;
+    display: block;
+    min-width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 6.25%;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+  }
+  .header .nav-bar .nav a {
+    font-size: 24px;
+    text-align: center;
+    line-height: 95px;
+    color: black;
+    text-transform: uppercase;
+    padding: 0 12px;
+  }
+  .header .nav-bar .navbar-left li {
+    display: inline;
+  }
+  .header .navbar-right {
+    display: none;
+  }
+  .header .visible {
+    display: block;
+  }
+  #slider .slider-content {
+    left: 0;
+    top: 30%;
+  }
+  #slider .slider-content h2 {
+    width: 100%;
+    font-size: 30px;
+  }
+  #slider .slider-content .btn {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .banner .banner-item {
+    width: 100%;
+  }
+  .banner .banner-item .card {
+    margin-top: 10px;
+  }
+  .banner .banner-item .card h4 {
+    font-size: 32px;
+  }
+  .banner .banner-item .card p {
+    padding: 0px 50px 50px 50px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
